@@ -1,1 +1,2 @@
-print(len(raw_input()))
+ip = raw_input()
+print(len(ip))
