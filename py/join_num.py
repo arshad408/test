@@ -1,1 +1,1 @@
-print "".join(raw_input().split(" "))
+print "".join(raw_input().split(" ")) #num
