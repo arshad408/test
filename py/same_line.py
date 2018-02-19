@@ -1,7 +1,7 @@
-p1 = map(int,raw_input().split(" "))
-p2 = map(int,raw_input().split(" "))
-p3 = map(int,raw_input().split(" "))
-if (p1[0]==p2[0]==p3[0]) or (p1[1]==p2[1]==p3[1]):
+A = map(int,raw_input().split(" "))
+B = map(int,raw_input().split(" "))
+C = map(int,raw_input().split(" "))
+if ( A[0] * (B[1] - C[1]) + B[0] * (C[1] - A[1]) + C[0] * (A[1] - B[1]) ) == 0:
     print "yes"
 else:
     print "no"
